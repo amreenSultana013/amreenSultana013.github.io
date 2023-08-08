@@ -506,7 +506,7 @@ nav .bx{
         padding-top: 50px;
         z-index: 2;
         transition: right 0.5s;
-
+        display: block;
     }
     nav ul li{
         display: block;
