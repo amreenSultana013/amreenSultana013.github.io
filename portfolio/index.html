@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,33 @@
     <title>Amreen - Java Full Stack Developer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Space+Mono&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="porfollio.css">
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <style>
-        
+        .icon-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 70px;
+            height: 70px;
+            background-color: #000;
+            /* Power BI color */
+            border-radius: 8px;
+            /* Rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            /* Add subtle shadow */
+        }
+
+        .icon {
+            width: 100px;
+            height: 100px;
+        }
     </style>
 </head>
+
 <body>
     <div id="header">
         <div class="container">
@@ -31,19 +51,19 @@
                         <li><a href="#contact">Contact</a></li>
                         <i class='bx bx-x' onclick="closeMenu()"></i>
                     </ul>
-                    <i class='bx bx-menu' onclick="openMenu()" ></i>
+                    <i class='bx bx-menu' onclick="openMenu()"></i>
                 </div>
             </nav>
             <div class="header-text">
                 <h2>Hi, there </h2>
-              
+
                 <h1 class="s">I'm Amreen <span>Sultana</span> </h1>
                 <h2>and I'am <i><span id="element"></span></i></h2>
             </div>
         </div>
     </div>
-     
-    <!-- ------------- About --------- -->  
+
+    <!-- ------------- About --------- -->
     <div id="about">
         <div class="container">
             <div class="row">
@@ -53,17 +73,19 @@
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
                     <h1>Hi there, I'm Amreen Sultana</h1>
-                    <p>I'm Amreen Sultana, born and brought up in Hyderabad. During my academics, I have learned 
-                        many technical skills and Languages such as Java, Html, CSS, Python and many more. I'm an 
-                        enthusiastic engineer, curious to learn new technology and I'm flexible to take challenges as 
-                        an opportunity, work well in a team as well as efficiently on my own. I'm looking to commence 
-                        my career in an organization where I can flourish myself for the growth of the company by 
-                        applying my knowledge and skills.
+                    <p>I am an aspiring Data Analyst and Software Developer with skills in C,
+                        C++, SQL, Power BI, Java, Spring Boot, HTML, CSS, and JavaScript, driven
+                        by a passion for turning complex data into meaningful insights and
+                        building impactful software solutions. I thrive on continuous learning,
+                        innovation, and solving real-world problems. With a strong desire to
+                        contribute to meaningful projects, I aim to grow both personally and
+                        professionally while making a positive difference in dynamic and fastpaced environments
                     </p>
                     <div class="contact">
-                        <a href="www.gmail.com" target="_blank"><i class='bx bx-envelope' ></i></a>
-                        <a href="https://www.linkedin.com/in/amreen-sultana-b213791a5/" target="_blank"><i class='bx bxl-linkedin'></i></i></a>
-                        <a href="https://github.com/" target="_blank"><i class='bx bxl-github' ></i></a>
+                        <a href="www.gmail.com" target="_blank"><i class='bx bx-envelope'></i></a>
+                        <a href="https://www.linkedin.com/in/amreen-sultana-b213791a5/" target="_blank"><i
+                                class='bx bxl-linkedin'></i></i></a>
+                        <a href="https://github.com/" target="_blank"><i class='bx bxl-github'></i></a>
                     </div>
 
 
@@ -71,7 +93,7 @@
             </div>
         </div>
     </div>
-      <!-- ------------- Education --------- --> 
+    <!-- ------------- Education --------- -->
     <div id="education">
         <div class="container">
             <h1 class="sub-title">Education</h1>
@@ -109,8 +131,8 @@
             </div>
         </div>
     </div>
-  <!-- ------------- Skills --------- -->
-    
+    <!-- ------------- Skills --------- -->
+
     <div id="skills">
         <div class="container">
             <h1 class="sub-title">Skills</h1>
@@ -120,26 +142,44 @@
                     <div class="skill-list">
                         <i class='bx bxl-java'></i>
                         <i class='bx bxl-python'></i>
-                        <i class='bx bxl-javascript' ></i>
-                        <i class='bx bxl-aws' ></i>
-                        
+                        <i class='bx bxl-javascript'></i>
+                        <i class='bx bxl-c-plus-plus'></i>
+                        <i class='bx bxl-aws'></i>
                     </div>
                 </div>
                 <div class="col-2">
                     <div class="sub-heading">Technologies</div>
                     <div class="skill-list">
-                        
-                        <i class='bx bxl-html5' ></i>
-                        <i class='bx bxl-css3' ></i>
-                        <i class='bx bxl-angular' ></i>
+
+                        <i class='bx bxl-html5'></i>
+                        <i class='bx bxl-css3'></i>
+                        <i class='bx bxl-angular'></i>
                         <i class='bx bxl-bootstrap'></i>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="sub-heading">Tools</div>
+                    <div class="skill-list">
+
+                        <i class='bx bxl-visual-studio'></i>
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+                            <rect width="2" height="14" x="2" y="7" rx="1"></rect>
+                            <rect width="2" height="18" x="6" y="3" rx="1"></rect>
+                            <rect width="2" height="10" x="10" y="11" rx="1"></rect>
+                            <rect width="2" height="6" x="14" y="15" rx="1"></rect>
+                            <path
+                                d="M17.25 3.5a.75.75 0 0 0-.75.75v15.5a.75.75 0 0 0 1.22.57l3.25-3.25a.75.75 0 0 0 .22-.53V4.25a.75.75 0 0 0-1.22-.57l-3.25 3.25a.75.75 0 0 0-.22.53z">
+                            </path>
+                        </svg>
+                        <img src="images/mysql-database (2).png" alt="mysql_logo" width="100px" height="100px">
+
                     </div>
                 </div>
 
             </div>
         </div>
     </div>
-       <!-- ------------- project --------- --> 
+    <!-- ------------- project --------- -->
     <div id="project">
         <div class="container">
             <h1 class="sub-title">Projects</h1>
@@ -148,56 +188,81 @@
                     <img src="images/food_app.jpg" alt="">
                     <div class="layer">
                         <h3>Food Delivery System</h3>
-                        <p>In this customer browse the menu, and place the order. We use JAVA for backend. Html, css, angular as frontend and mysql as database </p>
-                        <a href="https://github.com/amreenSultana013/Food_Delivery_System" target="_blank"><i class='bx bx-link-external'></i></a>
+                        <p>In this customer browse the menu, and place the order. We use JAVA for backend. Html, css,
+                            angular as frontend and mysql as database </p>
+                        <a href="https://github.com/amreenSultana013/Food_Delivery_System/" target="_blank"><i
+                                class='bx bx-link-external'></i></a>
                     </div>
                 </div>
                 <div class="image">
                     <img src="images/quiz_img.png" alt="">
                     <div class="layer">
                         <h3>Quiz Management System</h3>
-                        <p>Built an interactive system, In which user can attempt a quiz check their score. It is pure front-end project develop using HTML, CSS, and JavaScript</p>
+                        <p>Built an interactive system, In which user can attempt a quiz check their score. It is pure
+                            front-end project develop using HTML, CSS, and JavaScript</p>
                         <a href="https://github.com/" target="_blank"><i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
                 <div class="image">
-                    <img src="images/eComerce.jpg" height="370px" alt="">
+                    <img src="images/back_img.jpg" height="370px" alt="">
                     <div class="layer">
-                        <h3>E-commerce Website </h3>
-                        <p>It is similar to other e-commerce website, where user can search product, add to cart, if they like the product can place order. We use JAVA for backend. Html, css, angular as frontend and SQL as database </p>
-                        <a href="https://github.com/" target="_blank"><i class='bx bx-link-external'></i></a>
+                        <h3>Dynamic QR Code Generator </h3>
+                        <p>Developed a web-based application using HTML, CSS, and
+                            JavaScript to dynamically generate QR codes. This application
+                            allows users to input text or URLs and create QR codes that
+                            remain unchanged even if the linked content is updated. By
+                            leveraging a dynamic redirection mechanism, the same QR
+                            code enables navigation to updated links, ensuring flexibility
+                            and enhanced usability. </p>
+                        <a href="https://amreensultana013.github.io/QRCode/" target="_blank"><i
+                                class='bx bx-link-external'></i></a>
                     </div>
                 </div>
                 <div class="image">
                     <img src="images/securing.png" height="400px" alt="">
                     <div class="layer">
                         <h3>Securing Data using Blockchain and AI</h3>
-                        <p>In which we use SecNet integrating two key components, Blockchain-based sharing data 
-                            with ownership and AI based smart work algorithm for computing data and producing intelligent and dynamic security rules for securing data using the nodes called Private Data 
-                            Centers. Each node contains a blockchain ledger to sync state with other nodes.  </p>
+                        <p>In which we use SecNet integrating two key components, Blockchain-based sharing data
+                            with ownership and AI based smart work algorithm for computing data and producing
+                            intelligent and dynamic security rules for securing data using the nodes called Private Data
+                            Centers. Each node contains a blockchain ledger to sync state with other nodes. </p>
                         <a href="https://github.com/" target="_blank"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="images/sales_dashboard.png" height="400px" alt="">
+                    <div class="layer">
+                        <h3>Sales Performance Dashboard using Power BI</h3>
+                        <p>Designed and developed an interactive, dynamic Sales
+                            Dashboard in Power BI by implementing ETL Processes and
+                            building a robust data model to establish relationships
+                            between multiple datasets to delivered a responsive and
+                            insightful dashboard, enabling data-driven decisions-making.
+                        </p>
+                        <a href="https://app.powerbi.com/view?r=eyJrIjoiYWI2OGFlOTEtOGU3MC00M2JjLWE1MjgtM2NiZmFlMDc2MmY2IiwidCI6Ijc4YzU3ZTE4LTAzYTQtNGRlYy05MDU0LTVmNGIyM2ExMTBmYiJ9"
+                            target="_blank"><i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
             </div>
 
         </div>
     </div>
-    <!-- ------------- Contact --------- --> 
+    <!-- ------------- Contact --------- -->
     <div id="contact">
         <div class="container">
             <h1 class="sub-title">Contact Me</h1>
             <div class="row">
-                <div class="contact-left"> 
-                    <p><i class='bx bxl-gmail' ></i></i>amreensulatana@gmail.com</p>
-                    <p><i class='bx bxs-phone' ></i>9948949843</p>
-                    <p><i class='bx bx-current-location' ></i>Hyderabad | Telangana</p>
+                <div class="contact-left">
+                    <p><i class='bx bxl-gmail'></i></i>amreensulatana1213@gmail.com</p>
+                    <p><i class='bx bxs-phone'></i>8639575360</p>
+                    <p><i class='bx bx-current-location'></i>Hyderabad | Telangana</p>
                     <div class="contact-icons">
-                        <a href=""><i class='bx bxl-github' ></i></a>
-                        <a href=""><i class='bx bxl-linkedin' ></i></a>
-                        <a href=""><i class='bx bxl-instagram' ></i></a>
-                         
+                        <a href=""><i class='bx bxl-github'></i></a>
+                        <a href=""><i class='bx bxl-linkedin'></i></a>
+                        <a href=""><i class='bx bxl-instagram'></i></a>
+
                     </div>
-                    <a href="images/Amreen-EB551.pdf" download class="btn btn2">Download CV</a>
+                    <a href="images/Amreen Sultana (2).pdf" target="_blank" class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
                     <form action="">
@@ -205,36 +270,36 @@
                         <input type="email" name="Email" placeholder="Your Email" required>
                         <textarea name="Message" placeholder="Your Message" cols="30" rows="10"></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
-                    </form> 
+                    </form>
                 </div>
 
             </div>
         </div>
     </div>
-        <!-- ------------- Contact --------- --> 
+    <!-- ------------- Contact --------- -->
     <div class="copyright">
-        <p>Copyright <span > @</span> Amreen Sultana.</p>
+        <p>Copyright <span> @</span> Amreen Sultana.</p>
         <p>All right reserved.</p>
     </div>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-            strings: ['Junior Software Developer','Web designer','UI/UX designer'],
+            strings: ['Aspiring Data Analyst', 'Junior Software Developer', 'Web designer', 'UI/UX designer'],
             typeSpeed: 100,
         });
     </script>
 
     <script>
-        var sidemenu=document.getElementById("sideMenu");
-        function openMenu(){
-            sidemenu.style.right="0";
+        var sidemenu = document.getElementById("sideMenu");
+        function openMenu() {
+            sidemenu.style.right = "0";
         }
 
-        function closeMenu(){
-            sidemenu.style.right="-200px";
+        function closeMenu() {
+            sidemenu.style.right = "-200px";
         }
     </script>
-   <!--
+    <!--
      <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script>
         $(window).scroll(function(){
@@ -249,4 +314,5 @@
    -->
 
 </body>
+
 </html>
